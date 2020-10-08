@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".activities.RoundFragment">
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+                                                 android:layout_height="match_parent" android:id="@+id/cLayoutRound"
+                                                 android:background="@color/colorPrimary">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="30sp" app:layout_constraintHorizontal_bias="0.499" android:id="@+id/nombreAplicacion"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/rojoOscuro"/>
+
+
+    <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/gridLayoutBoard"
+                app:layout_constraintTop_toBottomOf="@+id/nombreAplicacion"
+                android:columnCount="8" android:rowCount="7"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent">
+
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:id="@+id/tablero00"
+                android:background="@android:color/transparent"
+                android:contentDescription="tablero00"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero01"
+                android:contentDescription="tablero01"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero02"
+                android:contentDescription="tablero02"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero03"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero04"
+                android:contentDescription="tablero04"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero05"
+                android:contentDescription="tablero05"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero06"
+                android:contentDescription="tablero06"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero07"
+                android:contentDescription="tablero07"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero10"
+                android:contentDescription="tablero10"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero11"
+                android:contentDescription="tablero11"/>
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero12"
+                android:contentDescription="tablero12"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero13"
+                android:contentDescription="tablero13"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero14"
+                android:contentDescription="tablero14"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero15"
+                android:contentDescription="tablero15"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero16"
+                android:contentDescription="tablero16"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero17"
+                android:contentDescription="tablero17"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero20"
+                android:contentDescription="tablero20"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero21"
+                android:contentDescription="tablero21"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero22"
+                android:contentDescription="tablero22"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero23"
+                android:contentDescription="tablero23"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero24"
+                android:contentDescription="tablero24"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero25"
+                android:contentDescription="tablero25"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero26"
+                android:contentDescription="tablero26"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero27"
+                android:contentDescription="tablero27"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero30"
+                android:contentDescription="tablero30"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero31"
+                android:contentDescription="tablero31"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero32"
+                android:contentDescription="tablero32"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero33"
+                android:contentDescription="tablero33"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero34"
+                android:contentDescription="tablero34"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero35"
+                android:contentDescription="tablero35"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero36"
+                android:contentDescription="tablero36"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero37"
+                android:contentDescription="tablero37"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero40"
+                android:contentDescription="tablero40"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero41"
+                android:contentDescription="tablero41"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero42"
+                android:contentDescription="tablero42"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero43"
+                android:contentDescription="tablero43"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero44"
+                android:contentDescription="tablero44"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero45"
+                android:contentDescription="tablero45"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero46"
+                android:contentDescription="tablero46"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero47"
+                android:contentDescription="tablero47"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero50"
+                android:contentDescription="tablero50"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero51"
+                android:contentDescription="tablero51"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero52"
+                android:contentDescription="tablero52"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero53"
+                android:contentDescription="tablero53"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero54"
+                android:contentDescription="tablero54"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero55"
+                android:contentDescription="tablero55"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero56"
+                android:contentDescription="tablero56"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero57"
+                android:contentDescription="tablero57"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero60"
+                android:contentDescription="tablero60"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero61"
+                android:contentDescription="tablero61"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero62"
+                android:contentDescription="tablero62"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero63"
+                android:contentDescription="tablero63"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero64"
+                android:contentDescription="tablero64"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero65"
+                android:contentDescription="tablero65"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero66"
+                android:contentDescription="tablero66"/>
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/casilla"
+                android:background="@android:color/transparent"
+                android:id="@+id/tablero67"
+                android:contentDescription="tablero67"/>
+
+    </GridLayout>
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp" app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            android:id="@+id/botonSalir"
+            android:background="@drawable/button_bg_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="48dp" android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp" app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+            android:id="@+id/botonListaPartidas"
+            android:background="@drawable/button_bg_round"
+            android:layout_marginTop="52dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="48dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/colorJugador" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/gridLayoutBoard" android:layout_marginEnd="72dp"/>
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
